@@ -1,0 +1,33 @@
+.mainContent{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.emojiInput{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    outline: none;
+}
+
+.answer{
+    font-size: 1.5rem;
+    display: block;
+    margin: 3rem 0rem 2rem 0rem;
+}
+
+.emojiList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.emoji{
+    font-size: 1.6rem;
+    padding: 0rem 1rem;
+    cursor: pointer;
+}
