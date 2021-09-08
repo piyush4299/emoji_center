@@ -4,7 +4,6 @@ import "./styles.css";
 export const Content = ({emojiDataset}) => {
     const emojiList = Object.keys(emojiDataset);
     
-    let answerDisplayStatus = false;
     let [answer, setAnswer] = useState("Our emoji Dataset");
 
     let handleInput = (event) => {
@@ -12,7 +11,6 @@ export const Content = ({emojiDataset}) => {
         console.log(value);
 
         if(value){
-            answerDisplayStatus = true;
             answer = emojiList.filter((emoji) => {
                 console.log("emoji: ",typeof value);
                 return emoji === value;
